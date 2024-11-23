@@ -1,0 +1,47 @@
+{
+  "spec_version": "v1.4",
+  "identifier": "ZRP-1",
+  "name": "KSP Extensions",
+  "author": "MikeP1111",
+  "version": "1.0",
+  "ksp_version_min": "1.12",
+  "license": "MIT",
+  "resources": {
+    "repository": "https://github.com/MikeP1111/KSP_Extensions",
+    "bugtracker": "https://github.com/MikeP1111/KSP_Extensions/issues"
+  },
+  "tags": [
+    "config",
+    "career"
+  ],
+  "depends": [
+    {
+      "name": "RP-1-ExpressInstall"
+    },
+    {
+      "name": "TweakScaleRescaled-Redist"
+    },
+    {
+      "name": "RP-1-ExpressInstall-Graphics-Low"
+    },
+    {
+      "name": "RP-1"
+    }
+  ],
+  "install": [
+    {
+      "find": "ZRP-1",
+      "install_to": "GameData"
+    }
+  ],
+  "download": "https://github.com/MikeP1111/KSP_Extensions/releases/download/1.0/ZRP-1-v1.0.zip",
+  "download_size": 2066,
+  "download_hash": {
+    "sha1": "FD403DA353F4ECA728554DE9CA5C2C06C38A3A48",
+    "sha256": "FC71950F4FC86974196D59CD234AA8631461EFAAFB1590D108386F753498CC49"
+  },
+  "download_content_type": "application/zip",
+  "install_size": 1822,
+  "release_date": "2024-11-23T13:47:18Z",
+  "x_generated_by": "netkan"
+}
